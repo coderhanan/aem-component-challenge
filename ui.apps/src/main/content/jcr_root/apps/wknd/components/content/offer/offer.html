@@ -1,0 +1,24 @@
+<div class="cmp-offer__block" data-sly-use.offer="com.adobe.aem.guides.wknd.core.models.Offer">
+
+  <div class="cmp-offer" style="background: url('${offer.image @ context='styleString'}'); background-size: cover;">
+    <div class="cmp-offer__overlay">
+      <div class="cmp-offer__items"></div>
+
+      <div class="cmp-offer__items cmp-offer__head">
+        <p>Sale on trips to ${offer.country}</p>
+        <hr>
+      </div>
+
+      <div class="cmp-offer__items cmp-offer__price">
+        <p class="cmp-offer__old">${offer.OldPrice}</p>
+        <p class="cmp-offer__new">${offer.NewPrice}</p>
+      </div>
+
+      <div class="cmp-offer__items cmp-offer__contact">
+        <span><a href="mailto:brazil_office@wknd.com"> ${offer.Email} </a></span>
+      </div>
+
+    </div>
+  </div>
+
+</div>

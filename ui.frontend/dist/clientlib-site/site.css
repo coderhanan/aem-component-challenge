@@ -1,1 +1,326 @@
-.cmp-hello-world-sass:before{content:"\003e";display:inline-block;padding:0 10px}
+.cmp-hello-world-sass:before {
+  content: "\003e";
+  display: inline-block;
+  padding: 0 10px; }
+
+.cmp-offer__block {
+  text-align: center; }
+
+.cmp-offer {
+  display: inline-block;
+  text-align: left;
+  width: 300px;
+  height: 400px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-size: cover;
+  cursor: pointer; }
+
+.cmp-offer__overlay {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  background: #a4d0d6;
+  color: #202020;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.cmp-offer__items {
+  padding-left: 20px;
+  letter-spacing: 3px; }
+
+.cmp-offer__head {
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+  .cmp-offer__head p {
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px; }
+  .cmp-offer__head hr {
+    display: block;
+    width: 0;
+    border: none;
+    border-color: blue;
+    border-bottom: solid 2px red;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+
+.cmp-offer__price {
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+  .cmp-offer__price p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 10px;
+    font-weight: bold; }
+  .cmp-offer__price .cmp-offer__old {
+    text-decoration: line-through;
+    color: #676767; }
+
+.cmp-offer__contact {
+  opacity: 0;
+  letter-spacing: 1px;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+  .cmp-offer__contact a {
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 18px; }
+  .cmp-offer__contact p {
+    text-align: left;
+    font-size: 18px; }
+
+.cmp-offer:hover .cmp-offer__overlay {
+  opacity: 1; }
+  .cmp-offer:hover .cmp-offer__overlay .cmp-offer__head {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
+  .cmp-offer:hover .cmp-offer__overlay hr {
+    width: 75px;
+    -webkit-transition-delay: 0.4s;
+            transition-delay: 0.4s; }
+  .cmp-offer:hover .cmp-offer__overlay .cmp-offer__price {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition-delay: 0.3s;
+            transition-delay: 0.3s;
+    opacity: 1; }
+  .cmp-offer:hover .cmp-offer__overlay .cmp-offer__contact {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition-delay: 0.6s;
+            transition-delay: 0.6s;
+    opacity: 1; }
+
+.cmp-offer__block {
+  text-align: center; }
+
+.cmp-offer {
+  display: inline-block;
+  text-align: left;
+  width: 300px;
+  height: 400px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-size: cover;
+  cursor: pointer; }
+
+.cmp-offer__overlay {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  background: #a4d0d6;
+  color: #202020;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.cmp-offer__items {
+  padding-left: 20px;
+  letter-spacing: 3px; }
+
+.cmp-offer__head {
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+  .cmp-offer__head p {
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px; }
+  .cmp-offer__head hr {
+    display: block;
+    width: 0;
+    border: none;
+    border-color: blue;
+    border-bottom: solid 2px red;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+
+.cmp-offer__price {
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+  .cmp-offer__price p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 10px;
+    font-weight: bold; }
+  .cmp-offer__price .cmp-offer__old {
+    text-decoration: line-through;
+    color: #676767; }
+
+.cmp-offer__contact {
+  opacity: 0;
+  letter-spacing: 1px;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+  .cmp-offer__contact a {
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 18px; }
+  .cmp-offer__contact p {
+    text-align: left;
+    font-size: 18px; }
+
+.cmp-offer:hover .cmp-offer__overlay {
+  opacity: 1; }
+  .cmp-offer:hover .cmp-offer__overlay .cmp-offer__head {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
+  .cmp-offer:hover .cmp-offer__overlay hr {
+    width: 75px;
+    -webkit-transition-delay: 0.4s;
+            transition-delay: 0.4s; }
+  .cmp-offer:hover .cmp-offer__overlay .cmp-offer__price {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition-delay: 0.3s;
+            transition-delay: 0.3s;
+    opacity: 1; }
+  .cmp-offer:hover .cmp-offer__overlay .cmp-offer__contact {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition-delay: 0.6s;
+            transition-delay: 0.6s;
+    opacity: 1; }
+
+.cmp-offer__block {
+  text-align: center; }
+
+.cmp-offer {
+  display: inline-block;
+  text-align: left;
+  width: 300px;
+  height: 400px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-size: cover;
+  cursor: pointer; }
+
+.cmp-offer__overlay {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  background: #a4d0d6;
+  color: #202020;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.cmp-offer__items {
+  padding-left: 20px;
+  letter-spacing: 3px; }
+
+.cmp-offer__head {
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+  .cmp-offer__head p {
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px; }
+  .cmp-offer__head hr {
+    display: block;
+    width: 0;
+    border: none;
+    border-color: blue;
+    border-bottom: solid 2px red;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+
+.cmp-offer__price {
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+  .cmp-offer__price p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 10px;
+    font-weight: bold; }
+  .cmp-offer__price .cmp-offer__old {
+    text-decoration: line-through;
+    color: #676767; }
+
+.cmp-offer__contact {
+  opacity: 0;
+  letter-spacing: 1px;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+  .cmp-offer__contact a {
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 18px; }
+  .cmp-offer__contact p {
+    text-align: left;
+    font-size: 18px; }
+
+.cmp-offer:hover .cmp-offer__overlay {
+  opacity: 1; }
+  .cmp-offer:hover .cmp-offer__overlay .cmp-offer__head {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
+  .cmp-offer:hover .cmp-offer__overlay hr {
+    width: 75px;
+    -webkit-transition-delay: 0.4s;
+            transition-delay: 0.4s; }
+  .cmp-offer:hover .cmp-offer__overlay .cmp-offer__price {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition-delay: 0.3s;
+            transition-delay: 0.3s;
+    opacity: 1; }
+  .cmp-offer:hover .cmp-offer__overlay .cmp-offer__contact {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition-delay: 0.6s;
+            transition-delay: 0.6s;
+    opacity: 1; }
+
